@@ -7,7 +7,6 @@ RAX3000Me带USB款，DDR3闪存，生产日期20241129
 
 使用到的文件下载地址: [刷机准备文件](https://github.com/QiYueYiya/OpenWrt-Actions/releases/tag/RAX3000Me_Files)、[RAX3000Me固件](https://github.com/QiYueYiya/OpenWrt-Actions/releases/tag/RAX3000Me)
 - Kernel：mt7981-cmcc_rax3000me-initramfs-recovery.itb
-- Preloader：mt7981-cmcc_rax3000me-nand-ddr3-preloader.bin
 - Uboot：mt7981-cmcc_rax3000me-nand-ddr3-fip-fit.bin
 - Sysupgrade：RAX3000Me-yyMMdd-squashfs-sysupgrade.itb
 
@@ -119,4 +118,4 @@ reboot
 ## 三、开始刷机
 #### 1. 浏览器输入```192.168.1.1```进入Uboot，选择 [RAX3000Me-initramfs-recovery.itb](https://github.com/QiYueYiya/OpenWrt-Actions/releases/download/RAX3000Me_Files/mt7981-cmcc_rax3000me-initramfs-recovery.itb) 文件刷写等待重启
 
-#### 2. 路由器重启完毕，电脑获取IP后，浏览器输入```192.168.1.1```，在```系统-->备份与升级-->刷写固件```里刷写 [RAX3000Me-yyMMdd-squashfs-sysupgrade.itb](https://github.com/QiYueYiya/OpenWrt-Actions/releases/tag/RAX3000Me) 固件，新固件后台地址为```192.168.5.1```
+#### 2. 路由器重启完毕，电脑获取IP后，浏览器输入```192.168.1.1```，在```系统-->备份与升级-->刷写固件```里刷写 [RAX3000Me-yyMMdd-squashfs-sysupgrade.itb](https://github.com/QiYueYiya/OpenWrt-Actions/releases/tag/RAX3000Me) 固件，新固件后台地址为```192.168.10.1```
